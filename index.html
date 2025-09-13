@@ -5,243 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo de Aplicaciones 📚</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #007bff;
-            --secondary-color: #6c757d;
-            --background-color: #f8f9fa;
-            --card-background: #ffffff;
-            --text-color: #343a40;
-            --link-color: #0056b3;
-            --border-color: #e9ecef;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: var(--background-color);
-            color: var(--text-color);
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: var(--card-background);
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-
-        header {
-            text-align: center;
-            padding-bottom: 20px;
-        }
-
-        header h1 {
-            font-size: 2.5em;
-            color: var(--primary-color);
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-        }
-
-        header img {
-            max-width: 400px;
-            border-radius: 8px;
-            border: 2px solid var(--border-color);
-            transition: transform 0.3s ease-in-out;
-        }
-
-        header img:hover {
-            transform: scale(1.05);
-        }
-
-        .intro {
-            text-align: center;
-            font-size: 1.1em;
-            margin-bottom: 30px;
-        }
-
-        .section {
-            background-color: #f1f3f5;
-            padding: 25px;
-            border-radius: 10px;
-            margin-top: 25px;
-            border-left: 5px solid var(--primary-color);
-            transition: transform 0.3s ease;
-        }
-
-        .section:hover {
-            transform: translateY(-5px);
-        }
-
-        .section h2 {
-            font-size: 1.8em;
-            color: var(--primary-color);
-            margin-top: 0;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .section p, .section ul, .section ol {
-            font-size: 1em;
-            color: var(--secondary-color);
-        }
-
-        .git-info b, .github-manual b, .projects-list b {
-            color: var(--text-color);
-        }
-
-        .git-link {
-            display: inline-block;
-            margin-top: 10px;
-            color: var(--link-color);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s ease;
-        }
-
-        .git-link:hover {
-            color: var(--primary-color);
-            text-decoration: underline;
-        }
-
-        .github-manual ol {
-            padding-left: 20px;
-        }
-
-        .github-manual ol li {
-            margin-bottom: 10px;
-            list-style: none;
-            position: relative;
-        }
-
-        .github-manual ol li::before {
-            content: '✅';
-            position: absolute;
-            left: -25px;
-        }
-
-        .projects-list ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .projects-list ul li {
-            background-color: #e9ecef;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 10px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: background-color 0.3s ease;
-        }
-
-        .projects-list ul li:hover {
-            background-color: #dee2e6;
-        }
-
-        .project-link {
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 600;
-            transition: color 0.3s ease;
-        }
-
-        .project-link:hover {
-            color: var(--link-color);
-        }
-        
-        .icon {
-            margin-right: 8px;
-            font-size: 1.2em;
-        }
-
-        .icon-small {
-            margin-right: 5px;
-        }
-        
-        @media (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-            
-            header h1 {
-                font-size: 2em;
-            }
-            
-            .section h2 {
-                font-size: 1.5em;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
+        <nav class="navbar">
+            <a href="index.html">Inicio</a>
+            <a href="git.html">Git</a>
+            <a href="github-manual.html">Manual de GitHub</a>
+            <a href="proyectos.html">Proyectos</a>
+        </nav>
         <header>
             <h1>Desarrollo de Aplicaciones - 2025 📚</h1>
-            <p align="center">
-                <img src="https://media.giphy.com/media/xTiTny8DFgqgl2xjDi/giphy.gif" alt="Animación de programación">
-            </p>
-            <p class="intro">
-                ¡Bienvenido al repositorio oficial de la asignatura! Aquí encontrarás <b>documentación</b>, <b>proyectos</b> en distintos lenguajes y recursos esenciales para dominar el arte de programar con <b>buenas prácticas</b>.
-            </p>
+            <p>¡Bienvenido al repositorio oficial de la asignatura!</p>
+            <img src="https://media.giphy.com/media/xTiTny8DFgqgl2xjDi/giphy.gif" alt="Animación de programación" width="400">
         </header>
-        
-        <hr>
 
-        <section class="section git-info">
-            <h2><span class="icon">🔧</span> ¿Qué es Git?</h2>
+        <section class="section">
+            <h2><span class="icon">🔍</span> Explora Nuestro Contenido</h2>
             <p>
-                <b>Git</b> es un sistema de <b>control de versiones distribuido</b> que permite a los desarrolladores gestionar eficientemente el historial de cambios en el código fuente, facilitar el trabajo en equipo y mantener diferentes versiones de un mismo proyecto.
+                Hemos organizado todo el material del curso en secciones dedicadas para que puedas encontrar lo que buscas de manera rápida y eficiente.
             </p>
-            <a href="https://git-scm.com/" target="_blank" class="git-link">👉 Explora más en la página oficial</a>
-        </section>
-
-        <hr>
-
-        <section class="section github-manual">
-            <h2><span class="icon">🐙</span> Guía: Cómo crear una cuenta en GitHub</h2>
-            <p>A continuación, te presentamos los pasos detallados para crear tu cuenta en GitHub de forma rápida y sencilla:</p>
-            <ol>
-                <li>Ingresa a <a href="https://github.com/" target="_blank">https://github.com/</a>.</li>
-                <li>Haz clic en el botón <b>Sign up</b> (Registrarse) para iniciar el proceso.</li>
-                <li>Proporciona tu <b>correo electrónico</b>, crea un <b>nombre de usuario</b> y una <b>contraseña segura</b>.</li>
-                <li>Completa la verificación (captcha) para confirmar que no eres un bot 🤖.</li>
-                <li>Selecciona el plan gratuito (<b>Free</b>) a menos que prefieras explorar las opciones de pago.</li>
-                <li>Confirma tu correo electrónico haciendo clic en el enlace de verificación que recibirás en tu bandeja de entrada.</li>
-                <li>¡Listo! 🎉 Ahora tienes una cuenta en GitHub y puedes empezar a colaborar en proyectos.</li>
-            </ol>
-        </section>
-
-        <hr>
-
-        <section class="section projects-list">
-            <h2><span class="icon">💻</span> Proyectos del Curso</h2>
-            <p>Descubre los proyectos desarrollados a lo largo de este emocionante curso:</p>
             <ul>
-                <li>
-                    <span><span class="icon-small">🚀</span> <b>Proyectos de la Semana 01 - Java con Maven (JFrame)</b></span>
-                    <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001" target="_blank" class="project-link">
-                        🔗 Ir a la Semana 01
+                <li class="list-item">
+                    <a href="git.html">
+                        **Git:** Descubre los fundamentos del control de versiones.
                     </a>
                 </li>
-                <li>
-                    <span><span class="icon-small">🚀</span> <b>Proyectos de la Semana 02 - Java con Maven (JFrame)</b></span>
-                    <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002" target="_blank" class="project-link">
-                        🔗 Ir a la Semana 02
+                <li class="list-item">
+                    <a href="github-manual.html">
+                        **Manual de GitHub:** Guía paso a paso para crear tu cuenta.
+                    </a>
+                </li>
+                <li class="list-item">
+                    <a href="proyectos.html">
+                        **Proyectos:** Revisa los proyectos desarrollados en el curso.
                     </a>
                 </li>
             </ul>
         </section>
-
-        <hr>
     </div>
 </body>
 </html>
