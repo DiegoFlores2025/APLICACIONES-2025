@@ -1,36 +1,80 @@
-<h1 align="center">✨ Proyecto: Mi Repositorio Asombroso ✨</h1>
+<h1 align="center">📚 DESARROLLO DE APLICACIONES - 2025 📚</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="40%"/>
+  <img src="https://media.giphy.com/media/xTiTny8DFgqgl2xjDi/giphy.gif" width="40%">
 </p>
 
 <p align="center">
-  📌 Este repositorio contiene el código fuente y la documentación del proyecto <b>Mi Repositorio Asombroso</b>.<br/>
-  🚀 Desarrollado para resolver <i>[aquí pones el problema que resuelve]</i>.<br/>
-  💡 Incluye ejemplos prácticos, documentación y guías para contribuir.
-</p>
-<br/>
-
-<p align="center">
-  <a href="https://github.com/tu-usuario/tu-repo"><img src="https://img.shields.io/badge/version-1.0.0-blue?style=for-the-badge"></a>
-  <a href="https://github.com/tu-usuario/tu-repo/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/status-active-success?style=for-the-badge"></a>
+  Bienvenido al repositorio oficial de la asignatura <b>DESARROLLO DE APLICACIONES - 2025</b>.<br/>
+  Aquí encontrarás documentación, proyectos en distintos lenguajes y recursos para aprender a programar con buenas prácticas.
 </p>
 
 ---
 
-<summary><h2>📖 Descripción</h2></summary>
+<summary><h2>🔧 ¿Qué es Git?</h2></summary>
 
-- Este proyecto está diseñado para:  
-  - 🔧 Facilitar [funcionalidad principal].  
-  - 📊 Optimizar [algún proceso].  
-  - ⚡ Mejorar la experiencia en [dominio específico].  
+<p>
+  <b>Git</b> es un sistema de control de versiones distribuido que permite gestionar el historial de cambios en el código fuente, 
+  trabajar en equipo y mantener distintas versiones de un mismo proyecto.  
+  👉 Más información en la página oficial: 
+  <a href="https://git-scm.com/" target="_blank">https://git-scm.com/</a>
+</p>
 
 ---
 
-<summary><h2>⚙️ Instalación</h2></summary>
+<summary><h2>🐙 Manual: Crear una cuenta en GitHub</h2></summary>
+
+<p>A continuación se detallan los pasos para crear tu cuenta en GitHub:</p>
+
+<ol>
+  <li>Ingresa a <a href="https://github.com/" target="_blank">https://github.com/</a>.</li>
+  <li>Haz clic en el botón <b>Sign up</b> (Registrarse).</li>
+  <li>Ingresa tu <b>correo electrónico</b>, crea un <b>usuario</b> y <b>contraseña segura</b>.</li>
+  <li>Completa la verificación (captcha) para demostrar que no eres un bot 🤖.</li>
+  <li>Selecciona el plan gratuito (Free) a menos que quieras uno de pago.</li>
+  <li>Confirma tu correo electrónico revisando tu bandeja de entrada.</li>
+  <li>¡Listo! Ya tienes una cuenta en GitHub 🎉</li>
+</ol>
+
+---
+
+<summary><h2>💻 Proyectos</h2></summary>
+
+<p>En este apartado encontrarás los proyectos desarrollados a lo largo del curso:</p>
+
+<ul>
+  <li>
+    🚀 <b>Proyecto en Java con Maven (JFrame)</b>  
+    <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001" target="_blank">🔗 Ver proyecto</a>
+  </li>
+  <li>
+    🚀 <b>Proyecto en Java con Maven (JFrame)</b>
+        <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002" target="_blank">🔗 Ver proyecto</a>
+
+  </li>
+</ul>
+
+---
+
+<summary><h2>📂 Subida de archivos</h2></summary>
+
+<p>Para subir tus archivos a este repositorio:</p>
 
 ```bash
-git clone https://github.com/tu-usuario/tu-repo.git
-cd tu-repo
-# instrucciones adicionales
+# 1. Clonar el repositorio
+git clone https://github.com/tu-usuario/DESARROLLO-DE-APLICACIONES-2025.git
+
+# 2. Entrar al directorio
+cd DESARROLLO-DE-APLICACIONES-2025
+
+# 3. Copiar tu archivo/proyecto dentro de la carpeta correspondiente
+
+# 4. Agregar cambios
+git add .
+
+# 5. Hacer commit
+git commit -m "Subiendo mi proyecto"
+
+# 6. Subir cambios al repositorio remoto
+git push origin main
+
