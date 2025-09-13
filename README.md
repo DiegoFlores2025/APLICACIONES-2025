@@ -1,14 +1,11 @@
 <h1 align="center">📚 DESARROLLO DE APLICACIONES - 2025 📚</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xTiTny8DFgqgl2xjDi/giphy.gif" width="40%">
+  ¡Bienvenido! Para una experiencia interactiva y con diseño profesional,
+  <a href="https://DiegoFlores2025.github.io/APLICACIONES-2025" target="_blank">
+   Mira la página Web.
+  </a>
 </p>
-
-<p align="center">
-  Bienvenido al repositorio oficial de la asignatura <b>DESARROLLO DE APLICACIONES - 2025</b>.<br/>
-  Aquí encontrarás documentación, proyectos en distintos lenguajes y recursos para aprender a programar con buenas prácticas.
-</p>
-
 ---
 
 <summary><h2>🔧 ¿Qué es Git?</h2></summary>
