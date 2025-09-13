@@ -44,37 +44,12 @@
 
 <ul>
   <li>
-    🚀 <b>Proyecto en Java con Maven (JFrame)</b>  
-    <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001" target="_blank">🔗 Ver proyecto</a>
+    🚀 <b>Proyectos de la Semana 01 - Java con Maven (JFrame)</b>  
+    <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001" target="_blank">🔗 Semana 01</a>
   </li>
   <li>
-    🚀 <b>Proyecto en Java con Maven (JFrame)</b>
-        <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002" target="_blank">🔗 Ver proyecto</a>
+    🚀 <b>Proyectos de la Semana 02 - Java con Maven (JFrame)</b>
+        <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002" target="_blank">🔗 Semana 02</a>
 
   </li>
 </ul>
-
----
-
-<summary><h2>📂 Subida de archivos</h2></summary>
-
-<p>Para subir tus archivos a este repositorio:</p>
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/DESARROLLO-DE-APLICACIONES-2025.git
-
-# 2. Entrar al directorio
-cd DESARROLLO-DE-APLICACIONES-2025
-
-# 3. Copiar tu archivo/proyecto dentro de la carpeta correspondiente
-
-# 4. Agregar cambios
-git add .
-
-# 5. Hacer commit
-git commit -m "Subiendo mi proyecto"
-
-# 6. Subir cambios al repositorio remoto
-git push origin main
-
