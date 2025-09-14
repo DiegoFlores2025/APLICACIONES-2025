@@ -11,7 +11,7 @@
 </p>
 
 <div align="center">
-  <a href="https://diegoflores2025.github.io/APLICACIONES-2025/" target="_blank">
+  <a href="https://DiegoFlores2025.github.io/APLICACIONES-2025/" target="_blank">
     <h3>🌐 Visita el Sitio Web del Curso</h3>
   </a>
 </div>
