@@ -34,5 +34,3 @@ Si prefieres explorar el contenido directamente en este repositorio, aquí tiene
 
 * [**📁 Proyectos de la Semana 01**](https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001)
 * [**📁 Proyectos de la Semana 02**](https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002)
-
-**Recuerda sustituir `[tu-usuario].github.io/[tu-repositorio]` por la URL real de tu página web en GitHub Pages.**
