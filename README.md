@@ -21,6 +21,10 @@
 </div>
 
 <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 10px; margin: 20px 0; color: white;">
+<div align="center">
+  <a href="https://diegoflores2025.github.io/aplicaciones2025" target="_blank">Visita el Sitio Web del Curso
+  </a>
+</div>
 
 ### 🎯 Misión del Proyecto
 
