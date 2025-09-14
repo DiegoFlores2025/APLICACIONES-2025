@@ -1,36 +1,56 @@
-<h1 align="center">🚀 DESARROLLO DE APLICACIONES - 2025 🚀</h1>
+<h1 align="center">Proyectos del Curso: Desarrollo de Aplicaciones ☕</h1>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/xTiTny8DFgqgl2xjDi/giphy.gif" alt="Animación de programación" width="400" />
+  Este repositorio es un portafolio de los proyectos y ejercicios realizados durante el curso "Desarrollo de Aplicaciones", centrado en la creación de software robusto con <strong>Java</strong>, <strong>Maven</strong> y el <strong>ecosistema Spring</strong>.
 </p>
-
-<p align="center">
-  ¡Bienvenido al repositorio oficial de la asignatura <b>DESARROLLO DE APLICACIONES - 2025</b>!
-  <br>
-  Para una experiencia completa e interactiva, hemos creado un sitio web dedicado.
-</p>
-
 <div align="center">
-  <a href="https://DiegoFlores2025.github.io/APLICACIONES-2025/" target="_blank">
-    <h3>🌐 Visita el Sitio Web del Curso</h3>
+  <a href="https://diegoflores2025.github.io/aplicaciones2025" target="_blank">Visita el Sitio Web del Curso
   </a>
 </div>
 
----
+## Contenido y Temas del Curso
+Este curso me ha permitido adquirir y perfeccionar las siguientes habilidades y conocimientos, con un enfoque 100% práctico:
 
-## 🔍 Contenido del Sitio Web
+-   **Fundamentos de Java**
+    
+    Dominio de la programación orientada a objetos (POO), colecciones y conceptos avanzados.
+    
+-   **Gestión de Proyectos con Apache Maven**
+    
+    Manejo de dependencias, compilación, pruebas y empaquetado de aplicaciones de manera eficiente.
+    
+-   **Desarrollo con Spring Framework**
+    
+    Creación de aplicaciones escalables y eficientes, desde microservicios hasta aplicaciones web completas, utilizando **Spring Boot**.
+    
+-   **Persistencia de Datos**
+    
+    Conexión y manipulación de bases de datos relacionales utilizando tecnologías como **Spring Data JPA**.
 
-En el sitio web encontrarás un diseño profesional y navegación dedicada para cada sección clave del curso:
+## 📂 Proyectos y Ejercicios
+Aquí encontrarás los proyectos desarrollados, organizados por módulos. Cada carpeta contiene su propio `README.md` con instrucciones detalladas.
 
-* **🔧 Git:** Una guía detallada sobre el control de versiones.
-* **🐙 Manual de GitHub:** Pasos claros para crear y configurar tu cuenta.
-* **💻 Proyectos:** Un catálogo organizado de todos los proyectos desarrollados en el curso.
+* **`[nombre-del-proyecto-1]`**
+    
+    Una breve descripción de lo que hace el proyecto, por ejemplo: _"Una API REST simple para gestionar usuarios, demostrando el uso de Spring Boot y MySQL."_
+    
+* **`[nombre-del-proyecto-2]`**
+    
+    Una breve descripción de lo que hace el proyecto, por ejemplo: _"Una aplicación de consola para gestionar un inventario, enfocada en los fundamentos de Java y Maven."_
+    
+* **`[nombre-del-proyecto-3]`**
+    
+    Una breve descripción de lo que hace el proyecto, por ejemplo: _"Un microservicio para el registro de productos, aplicando principios de arquitectura modular."_
 
----
+## 🛠️ Tecnologías y Herramientas Utilizadas
+Las principales herramientas que se exploran y dominan a lo largo del curso son:
 
-## 📂 Exploración Directa
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
-Si prefieres explorar el contenido directamente en este repositorio, aquí tienes los enlaces a las carpetas principales:
 
-* [**📁 Proyectos de la Semana 01**](https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001)
-* [**📁 Proyectos de la Semana 02**](https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002)
+<h6 align="center">Desarrollado como parte del curso "Desarrollo de Aplicaciones"</h6>
