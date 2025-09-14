@@ -5,15 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo de Aplicaciones 📚</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --background-color: #f8f9fa;
+            --card-background: #ffffff;
+            --text-color: #343a40;
+            --link-color: #0056b3;
+            --border-color: #e9ecef;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--card-background);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            background-color: var(--primary-color);
+            padding: 15px 20px;
+            border-radius: 12px 12px 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+
+        .navbar a:hover {
+            opacity: 0.8;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .section {
+            background-color: #f1f3f5;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 25px;
+            border-left: 5px solid var(--primary-color);
+            transition: transform 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+        }
+
+        .section h2 {
+            font-size: 1.8em;
+            color: var(--primary-color);
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .list-item {
+            background-color: #e9ecef;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .list-item:hover {
+            background-color: #dee2e6;
+        }
+
+        .list-item a {
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .list-item a:hover {
+            color: var(--link-color);
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <nav class="navbar">
             <a href="index.html">Inicio</a>
-            <a href="git.html">Git</a>
-            <a href="github-manual.html">Manual de GitHub</a>
-            <a href="proyectos.html">Proyectos</a>
+            <a href="git/index.html">Git</a>
+            <a href="github-manual/index.html">Manual de GitHub</a>
+            <a href="proyectos/index.html">Proyectos</a>
         </nav>
         <header>
             <h1>Desarrollo de Aplicaciones - 2025 📚</h1>
@@ -28,17 +135,17 @@
             </p>
             <ul>
                 <li class="list-item">
-                    <a href="git.html">
+                    <a href="git/index.html">
                         **Git:** Descubre los fundamentos del control de versiones.
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="github-manual.html">
+                    <a href="github-manual/index.html">
                         **Manual de GitHub:** Guía paso a paso para crear tu cuenta.
                     </a>
                 </li>
                 <li class="list-item">
-                    <a href="proyectos.html">
+                    <a href="proyectos/index.html">
                         **Proyectos:** Revisa los proyectos desarrollados en el curso.
                     </a>
                 </li>
