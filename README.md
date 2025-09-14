@@ -1,52 +1,38 @@
-<h1 align="center">📚 DESARROLLO DE APLICACIONES - 2025 📚</h1>
+<h1 align="center">🚀 DESARROLLO DE APLICACIONES - 2025 🚀</h1>
 
 <p align="center">
-  ¡Bienvenido! Para una experiencia interactiva y con diseño profesional,
-  <a href="https://DiegoFlores2025.github.io/APLICACIONES-2025" target="_blank">
-   Mira la página Web.
+  <img src="https://media.giphy.com/media/xTiTny8DFgqgl2xjDi/giphy.gif" alt="Animación de programación" width="400" />
+</p>
+
+<p align="center">
+  ¡Bienvenido al repositorio oficial de la asignatura <b>DESARROLLO DE APLICACIONES - 2025</b>!
+  <br>
+  Para una experiencia completa e interactiva, hemos creado un sitio web dedicado.
+</p>
+
+<div align="center">
+  <a href="https://DiegoFlores2025.github.io/APLICACIONES-2025/" target="_blank">
+    <h3>🌐 Visita el Sitio Web del Curso</h3>
   </a>
-</p>
----
-
-<summary><h2>🔧 ¿Qué es Git?</h2></summary>
-
-<p>
-  <b>Git</b> es un sistema de control de versiones distribuido que permite gestionar el historial de cambios en el código fuente, 
-  trabajar en equipo y mantener distintas versiones de un mismo proyecto.  
-  👉 Más información en la página oficial: 
-  <a href="https://git-scm.com/" target="_blank">https://git-scm.com/</a>
-</p>
+</div>
 
 ---
 
-<summary><h2>🐙 Manual: Crear una cuenta en GitHub</h2></summary>
+## 🔍 Contenido del Sitio Web
 
-<p>A continuación se detallan los pasos para crear tu cuenta en GitHub:</p>
+En el sitio web encontrarás un diseño profesional y navegación dedicada para cada sección clave del curso:
 
-<ol>
-  <li>Ingresa a <a href="https://github.com/" target="_blank">https://github.com/</a>.</li>
-  <li>Haz clic en el botón <b>Sign up</b> (Registrarse).</li>
-  <li>Ingresa tu <b>correo electrónico</b>, crea un <b>usuario</b> y <b>contraseña segura</b>.</li>
-  <li>Completa la verificación (captcha) para demostrar que no eres un bot 🤖.</li>
-  <li>Selecciona el plan gratuito (Free) a menos que quieras uno de pago.</li>
-  <li>Confirma tu correo electrónico revisando tu bandeja de entrada.</li>
-  <li>¡Listo! Ya tienes una cuenta en GitHub 🎉</li>
-</ol>
+* **🔧 Git:** Una guía detallada sobre el control de versiones.
+* **🐙 Manual de GitHub:** Pasos claros para crear y configurar tu cuenta.
+* **💻 Proyectos:** Un catálogo organizado de todos los proyectos desarrollados en el curso.
 
 ---
 
-<summary><h2>💻 Proyectos</h2></summary>
+## 📂 Exploración Directa
 
-<p>En este apartado encontrarás los proyectos desarrollados a lo largo del curso:</p>
+Si prefieres explorar el contenido directamente en este repositorio, aquí tienes los enlaces a las carpetas principales:
 
-<ul>
-  <li>
-    🚀 <b>Proyectos de la Semana 01 - Java con Maven (JFrame)</b>  
-    <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001" target="_blank">🔗 Semana 01</a>
-  </li>
-  <li>
-    🚀 <b>Proyectos de la Semana 02 - Java con Maven (JFrame)</b>
-        <a href="https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002" target="_blank">🔗 Semana 02</a>
+* [**📁 Proyectos de la Semana 01**](https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2001)
+* [**📁 Proyectos de la Semana 02**](https://github.com/DiegoFlores2025/APLICACIONES-2025-2/tree/a2341959da7a204cfd8f4762b1ef2f419ba988c6/SEMANA%2002)
 
-  </li>
-</ul>
+**Recuerda sustituir `[tu-usuario].github.io/[tu-repositorio]` por la URL real de tu página web en GitHub Pages.**
